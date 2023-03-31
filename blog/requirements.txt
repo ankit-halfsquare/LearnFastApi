@@ -2,3 +2,5 @@ fastapi
 uvicorn
 sqlalchemy
 pyodbc==4.0.35
+passlib
+bcrypt==4.0.1
