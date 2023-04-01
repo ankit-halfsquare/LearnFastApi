@@ -6,6 +6,12 @@ from sqlalchemy.orm import sessionmaker
 
 import pyodbc
 
+server = '40.114.74.64,1401'
+database = 'AM_PRIME_2_DEV'
+username = 'amvmdev23'
+password = 'AMvmdev-2023!'
+driver= '{ODBC Driver 17 for SQL Server}' 
+
 
 
 # connection_string = f"Driver={driver};Server=tcp:{server};Database={database};Uid={username};Pwd={password};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
